@@ -1,4 +1,4 @@
-# Monitoring and Observabiity
+# Monitoring and Observability
 
 Deploying Prometheus, Grafana and ELK stack.
 
