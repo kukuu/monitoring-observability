@@ -2,11 +2,9 @@
 
 Deploying Prometheus, Grafana and ELK stack.
 
-## Monitoring and Logging
+## Deploy Prometheus and Grafana using Helm:
 
-1. Prometheus and Grafana:
 
-i. Deploy Prometheus and Grafana using Helm:
 
 ```
 helm install prometheus prometheus-community/prometheus
@@ -14,7 +12,7 @@ helm install grafana grafana/grafana
 
 ```
 
-ii. Configure Prometheus to scrape metrics from the backend.
+Next, configure Prometheus to scrape metrics from the backend.
 
 ### Prometheus Configuration 
 
