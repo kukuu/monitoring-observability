@@ -381,3 +381,7 @@ ii. Send logs from the backend to Elasticsearch.
 ### Visualize Metrics in Grafana:
 
 Create dashboards in Grafana to monitor application performance.
+
+
+## Resources
+- https://github.com/kukuu/deployment
