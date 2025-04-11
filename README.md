@@ -385,3 +385,4 @@ Create dashboards in Grafana to monitor application performance.
 
 ## Resources
 - https://github.com/kukuu/deployment
+- https://github.com/kukuu/kubernetes
