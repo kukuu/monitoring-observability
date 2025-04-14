@@ -5,7 +5,7 @@ Deploying Prometheus, Grafana and ELK stack.
 ## Deploy Prometheus and Grafana using Helm:
 
 
-
+ 
 ```
 helm install prometheus prometheus-community/prometheus
 helm install grafana grafana/grafana
