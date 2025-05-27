@@ -9,7 +9,7 @@ Deploying Prometheus, Grafana and ELK stack.
 ```
 helm install prometheus prometheus-community/prometheus
 helm install grafana grafana/grafana
-
+ 
 ```
 
 Next, configure Prometheus to scrape metrics from the backend.
