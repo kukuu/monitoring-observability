@@ -11,9 +11,6 @@ Workers manage their own FSM (Finite State Machine)
 
 GPIO abstracted for cross-platform support
 
-- Data Flow
-
-https://github.com/kukuu/raspberry-pie-digital/blob/main/conveyor-belt-nodejs-JS/conveyor-belt-flow-diagram.png
 
 ## Data Architecture
 
