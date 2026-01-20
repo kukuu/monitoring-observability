@@ -1,8 +1,37 @@
 # Monitoring and Observability
 
-Deploying Prometheus, Grafana and ELK stack.
+## Frontend Monitoring**
 
-## Deploy Prometheus and Grafana using Helm:
+```
+// Error boundary for React
+class ErrorBoundary extends React.Component {
+  componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
+    logErrorToService(error, errorInfo);
+    // Send to monitoring service
+    monitoringService.captureException(error);
+  }
+}
+```
+
+## Backend logging
+
+```
+
+@Slf4j
+@Service
+public class CorrelationService {
+    
+    public Alert correlateAlerts(List<Alert> alerts) {
+        log.info("Starting correlation for {} alerts", alerts.size());
+        // Correlation logic
+        log.debug("Correlation result: {}", result);
+        auditService.logEvent("ALERT_CORRELATED", user, result);
+    }
+}
+```
+
+
+## Deploy Prometheus and Grafana and ELK stack using Helm:
 
 
  
