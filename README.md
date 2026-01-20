@@ -13,7 +13,7 @@ class ErrorBoundary extends React.Component {
 }
 ```
 
-## Backend logging
+## Backend logging - JAVA
 
 ```
 
@@ -31,7 +31,7 @@ public class CorrelationService {
 ```
 
 
-## Deploy Prometheus and Grafana and ELK stack using Helm:
+## Deploy Prometheus and Grafana and ELK stack using Helm - Node:
 
  
 ```
