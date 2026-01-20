@@ -12,7 +12,7 @@ class ErrorBoundary extends React.Component {
   }
 }
 ```
-
+ 
 ## Backend logging - JAVA
 
 ```
