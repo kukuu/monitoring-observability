@@ -1,6 +1,6 @@
 # Monitoring and Observability
 
-## Frontend Monitoring**
+## Frontend Monitoring
 
 ```
 // Error boundary for React
@@ -32,7 +32,6 @@ public class CorrelationService {
 
 
 ## Deploy Prometheus and Grafana and ELK stack using Helm:
-
 
  
 ```
